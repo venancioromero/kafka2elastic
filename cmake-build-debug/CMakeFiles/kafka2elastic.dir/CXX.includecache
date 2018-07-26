@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/venoty/CLionProjects/kafka2elastic/main.cpp
+iostream
+-
+librdkafka/rdkafkacpp.h
+-
+libconfig.h++
+-
+string
+-
+boost/algorithm/string/classification.hpp
+-
+boost/algorithm/string/split.hpp
+-
+
